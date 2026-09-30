@@ -9,7 +9,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "node dist/cli.js"
+    "start": "node dist/cli.js",
+    "test": "tsc && node --test dist/core.test.js"
   },
   "engines": {
     "node": ">=18"
